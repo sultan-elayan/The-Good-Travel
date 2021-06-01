@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Good Travel </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+
+    <header>
+        <img src="img/logo.gif" alt="" id="logo">
+        <h1>The Good Travel </h1>
+    </header>
+
+    <main>
+        <div id="fromDiv">
+            <form action="" id="form">
+                <label for="name">Place Name</label>
+                <br>
+                <br>
+                <input type="text" name="name" id="name" required placeholder="Europ">
+                <br>
+                <br>
+                <label for="place">Trip Place</label>
+                <br>
+                <br>
+                <select name="place" id="place">
+                    <option value="SLOVAKIA">SLOVAKIA</option>
+                    <option value="HAWAII">HAWAII</option>
+                    <option value="LONDON">LONDON</option>
+                    <option value="PARIS">PARIS</option>
+                    <option value="ITALY">ITALY</option>
+                    <option value="MALAYSIA">MALAYSIA</option>
+                </select>
+                <br>
+                <br>
+                <select name="typeTrans" id="typeTrans"> Type Of Transport
+                    <option value="Car">Car</option>
+                    <option value="Train">Train</option>
+                    <option value="Flight">Flight</option>
+                    <option value="Cruise">Cruise</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" id="submit">
+                <br>
+                <br>
+                <!-- <button onclick="remover()" id="remover">Delete You History</button> -->
+
+            </form>
+        </div>
+
+
+        <div id="tableDiv">
+            <table id="table"></table>
+        </div>
+
+    </main>
+
+    <footer> &copy; ASAC 2021</footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
